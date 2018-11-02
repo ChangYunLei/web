@@ -1,0 +1,134 @@
+html,body{
+    height: 100%;
+    background: url('../image/timg.jpg') no-repeat;
+    background-size: cover;
+
+
+}
+
+.navBox {
+    background: rgba(0,0,0,0.5);
+   overflow: hidden;
+   clear: both;
+   display: inline;
+}
+
+.navBox div{
+    float: right;
+    font-size: 0;
+
+}
+.navBox a:hover{
+    color: #317EF3;
+}
+.navBox a{
+   
+    font-size: 15px;
+    padding:0 15px;
+    display:inline-block; 
+    line-height: 32px;
+    color: white;
+    text-decoration: underline;
+}
+
+.navBox a.line{
+text-decoration: none;
+color: #AAA;
+}
+.hongbaobox{
+    width: 170px;
+    height: 200px;
+    background-color: firebrick;
+    float: left;
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+}
+
+
+
+.serachBox{
+    margin: 25px auto;
+    width: 624px;
+}
+.serachBox img{
+    display: block;
+    margin: 0 auto;
+    width: 244px;
+}
+.serachBox div{
+    margin-top: 10px;
+    font-size: 0;
+}
+.serachBox input{
+    width:508px;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 5px;
+    border: 1px solid #eee;
+    background: rgba(255,255,255,0.8);
+    font-size: 16px;
+    vertical-align: top；
+
+}
+    .serachBox a{
+        display: inline-block;
+        width: 104px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        background: #38f;
+        color: #ffffff;
+        font-size: 16px;
+    }
+    .serachBox a:hover{
+        background: #317EF3;
+        vertical-align: top；
+    }
+    .imagelistBox{
+        width: 800px;
+        height: 290px;
+        padding: 0 10px 10px 0;
+        margin: 0 auto;
+        background:rgba(255, 255, 255, .3);
+    }
+    .imagelistBox ul{
+        overflow: hidden;
+    }
+    .imagelistBox ul li{
+        position: relative;
+        width: 150px;
+        height: 135px;
+        margin: 10px 0 0 10px;
+        float: left;
+    }
+
+    .imagelistBox ul li img{
+        width: 100%;
+        height: 100%;
+    }
+    .imagelistBox ul li span{
+       position: absolute;
+       bottom: 0;
+       left: 0;
+       z-index: 1;
+        width: 100%;
+        height: 34px;
+        line-height: 34px;
+        text-indent: 2em;
+        font-size: 15px;
+        color: #ffffff;
+        background: rgba(0,0,0,.5);
+    }
+    .imagelistBox ul li:hover img{
+        transform: scale(1.5)
+        rotate(360deg);
+    }
+    .imagelistBox ul li img {
+        transition: .5s;
+    }
+    .imagelistBox ul li {
+        overflow: hidden;
+    }
+        
+    
